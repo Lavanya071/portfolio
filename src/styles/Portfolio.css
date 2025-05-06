@@ -1,0 +1,90 @@
+:root {
+  --light-bg: #ffffff;
+  --light-text: #000000;
+  --light-accent: #007bff;
+
+  --dark-bg: #121212;
+  --dark-text: #f0f0f0;
+  --dark-accent: #1e90ff;
+
+  --transition-speed: 0.3s;
+}
+
+/* Default Theme Variables (Light) */
+body.light {
+  --bg: var(--light-bg);
+  --text: var(--light-text);
+  --accent: var(--light-accent);
+}
+
+/* Dark Theme Variables */
+body.dark {
+  --bg: var(--dark-bg);
+  --text: var(--dark-text);
+  --accent: var(--dark-accent);
+}
+
+.portfolio-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: var(--bg);
+  color: var(--text);
+  transition: background-color var(--transition-speed), color var(--transition-speed);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+.logout-button {
+  padding: 10px 15px;
+  background-color: var(--accent);
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: 500;
+  transition: all var(--transition-speed);
+}
+
+.logout-button:hover {
+  background-color: #0056b3;
+  transform: scale(1.05);
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  background-color: var(--bg);
+  color: var(--text);
+  min-height: 100vh;
+  padding: 20px;
+  transition: background-color var(--transition-speed), color var(--transition-speed);
+}
+
+/* Optional: Animate main content fade-in */
+main.fade-in {
+  animation: fadeIn 0.6s ease-in;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Responsive Enhancements */
+@media (max-width: 600px) {
+  .portfolio-header {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .logout-button {
+    margin-top: 10px;
+  }
+}

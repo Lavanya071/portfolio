@@ -1,0 +1,59 @@
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: var(--bg, #f9f9f9);
+    padding: 20px;
+    background-image:url("https://coderkube.com/wp-content/uploads/2017/08/banner-portfolio-design-agency-leicester.jpg");
+  }
+  
+  .login-box {
+    background-color: var(--card-bg, #ffffff);
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.08);
+    max-width: 400px;
+    width: 100%;
+  }
+  
+  .login-box h2 {
+    text-align: center;
+    margin-bottom: 24px;
+    color: var(--text, #333);
+  }
+  
+  .login-box input {
+    width: 100%;
+    padding: 12px 14px;
+    margin-bottom: 16px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 1rem;
+    background-color: var(--input-bg, #fff);
+    color: var(--text, #333);
+    transition: border 0.3s ease;
+  }
+  
+  .login-box input:focus {
+    outline: none;
+    border-color: var(--accent, #007bff);
+  }
+  
+  .login-box button {
+    width: 100%;
+    padding: 12px;
+    background-color: var(--accent, #007bff);
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .login-box button:hover {
+    background-color: #0056b3;
+  }
+  

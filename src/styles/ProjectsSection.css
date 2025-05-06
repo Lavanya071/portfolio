@@ -1,0 +1,94 @@
+/* Add to the top or in :root for global use */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
+.projects-section { 
+  font-family: 'Georgia', 'serif';
+  padding: 60px 20px;
+  background: var(--projects-bg);
+  color: var(--projects-text);
+  text-align: center;
+  transition: background 0.4s ease, color 0.4s ease;
+}
+
+.projects-title {
+  font-size: 2rem;
+  margin-bottom: 30px;
+  transition: color 0.4s ease;
+}
+
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 30px;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.project-card {
+  display: flex;
+  align-items: flex-start;
+  gap: 16px;
+  background: linear-gradient(135deg, #a9dfbf, #f9e79f, #fadbd8);
+  border-radius: 10px;
+  padding: 16px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, background 0.4s ease, color 0.4s ease;
+  cursor: pointer;
+}
+
+body.dark .project-card {
+  box-shadow: 0 4px 20px rgba(255, 255, 255, 0.05);
+}
+
+.project-image {
+  width: 100px;
+  height: auto;
+  border-radius: 8px;
+  flex-shrink: 0;
+  object-fit: contain;
+}
+
+.project-card:hover {
+  transform: translateY(-6px) scale(1.05);
+  background: linear-gradient(135deg, var(--accent), #2575fc);
+  color: #ffffff;
+}
+
+.project-card:hover .project-content,
+.project-card:hover .project-content a {
+  color: #ffffff;
+}
+
+.project-card:hover .project-content a:hover {
+  color: #ffd700;
+  text-decoration: underline;
+}
+
+.project-content {
+  flex: 1;
+  text-align: left;
+  transition: color 0.4s ease;
+}
+
+.project-content h4 {
+  margin: 0 0 6px;
+  font-size: 1.1rem;
+}
+
+.project-content p {
+  margin: 0 0 10px;
+  font-size: 0.95rem;
+}
+
+.project-content a {
+  display: inline-block;
+  margin-top: 6px;
+  color: var(--accent);
+  font-weight: 500;
+  transition: color 0.3s ease;
+  text-decoration: none;
+}
+
+.project-content a:hover {
+  text-decoration: underline;
+}

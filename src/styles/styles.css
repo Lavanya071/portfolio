@@ -1,0 +1,30 @@
+:root {
+  /* Global theme variables */
+  --bg: #ffffff;
+  --text: #111111;
+  --accent: #6a11cb;
+
+  /* Skills-specific variables */
+  --skills-bg: #ffffff;
+  --skills-text: #111111;
+  --skills-card-bg: #f16153;
+
+  /* Projects-specific variables */
+  --projects-bg: #f9f9f9;
+  --projects-text: #222222;
+  --projects-card-bg:#7dcea0 ;
+}
+
+body.dark {
+  --bg: #121212;
+  --text: #ffffff;
+  --accent: #ffd700;
+
+  --skills-bg: #121212;
+  --skills-text: #ffffff;
+  --skills-card-bg: #1e1e1e;
+
+  --projects-bg: #181818;
+  --projects-text: #f0f0f0;
+  --projects-card-bg: #2a2a2a;
+}

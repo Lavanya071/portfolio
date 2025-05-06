@@ -1,0 +1,68 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px 32px;
+    background: linear-gradient(90deg,
+    #f8c6c8,
+    /* Muted light pink */
+    #f49b9e,
+    /* Soft rose red */
+    #ec6d71,
+    /* Slightly deeper coral red */
+    #f7c59f,
+    /* Warm beige-peach */
+    #b2ebf2
+    /* Soft aqua */
+);
+    color: var(--text);
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    border-bottom: 1px solid #ddd;
+    background-color:#f5e6e7;
+  }
+  
+  .navbar-logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: var(--accent);
+    cursor: pointer;
+  }
+  
+  .navbar-links {
+    list-style: none;
+    display: flex;
+    gap: 24px;
+  }
+  
+  .navbar-links li {
+    cursor: pointer;
+    font-weight: 500;
+    transition: color 0.3s;
+  }
+  
+  .navbar-links li:hover {
+    color: var(--accent);
+  }
+  
+  .navbar-right {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+  }
+  
+  .logout-button {
+    padding: 8px 12px;
+    background-color: var(--accent);
+    border: none;
+    border-radius: 4px;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  .logout-button:hover {
+    background-color: #0056b3;
+  }
+  
