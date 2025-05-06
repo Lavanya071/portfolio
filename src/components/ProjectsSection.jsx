@@ -42,14 +42,14 @@ const projects = {
   react: [
     {
       title: 'Portfolio Website',
-      description: 'A fully responsive portfolio made with ReactJS and CSS.',
-      link: 'https://yourportfolio.vercel.app',
+      description: 'This is a personal portfolio website designed to showcase my professional profile, projects, technical skills, and contact information in a visually appealing and responsive layout. It serves as an online resume and creative platform to present my work to potential employers, clients, or collaborators.',
+      link: 'https://portfolio-webstite-jade.vercel.app/',
       image: 'https://s3-alpha.figma.com/hub/file/4209109661/895d1753-993d-4c76-8cbd-a9349edadac8-cover.png'
     },
     {
       title: 'Stock-Trend-Analyzer',
       description: 'The Stock Trend Analyzer is a data-driven application designed to analyze historical stock market data to identify and visualize price trends over time. It leverages technical indicators such as moving averages, RSI (Relative Strength Index), and MACD (Moving Average Convergence Divergence) to detect upward or downward trends in stock prices. The tool helps users make informed investment decisions by providing graphical insights and trend predictions. This project aims to simplify stock market analysis for both beginners and experienced traders through an intuitive and user-friendly interface.',
-      link: 'https://stocktrendanalyzerapp.netlify.app/#/login',
+      link: 'https://stock-market-trend-analyzer.vercel.app/#/login',
       image: 'https://static.vecteezy.com/system/resources/previews/026/266/565/original/successful-stock-market-statistical-information-and-trends-with-up-arrows-futuristic-financial-trading-chart-economic-information-growth-background-vector.jpg'
     }
   ],
