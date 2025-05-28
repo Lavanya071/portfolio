@@ -4,23 +4,23 @@ const projects = {
   html: [
     {
       title: 'A Simple HTML Project',
-      description: 'The Prime Video Clone is a front-end project that recreates the look and feel of the original Amazon Prime Video homepage using only HTML and CSS. This project was built to strengthen my skills in responsive web design, and user interface development, focusing on replicating a real-world streaming service layout. The clone features familiar sections such as a navigation bar, hero banner, movie and show categories, and clickable thumbnails.',
-      link: 'https://primefairozaa.ccbp.tech/',
-      image: 'https://m.media-amazon.com/images/G/01/primevideo/seo/primevideo-seo-logo.png'
+      description: 'Developed a responsive Netflix-inspired web application using HTML, CSS, and JavaScript, replicating core UI components and layout Implemented interactive navigation and responsive design to ensure seamless user experience across devices. Demonstrated proficiency in front-end development and UI/UX best practices through this project.',
+      link: 'https://netflixbyme.ccbp.tech/',
+      image: 'https://www.citypng.com/public/uploads/preview/round-netflix-logo-701751694792607bemlfazrrl.png'
     }
   ],
   css: [
     {
       title: 'A CSS Project',
       description: 'CSS Animation Showcase is a front-end project that demonstrates various animations using only CSS. It includes hover effects, transitions, and keyframe animations to create smooth and interactive UI elements. This project helped me practice modern CSS techniques without using any JavaScript.',
-      link: 'https://cofeecss.ccbp.tech/',
-      image: 'https://uicookies.com/wp-content/uploads/2020/01/coffeeking-coffee-shop-website-template.jpg'
+      link: 'https://travelsandtours.ccbp.tech/',
+      image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRgVpYI7j5nrddUIFXooY7YEMDB0PAylI96gA&s'
     },
   
     {
       title: 'Portfolio with CSS',
       description: 'Personal Portfolio Website is a responsive web page built using HTML and CSS. It showcases my skills, projects, and contact information in a clean and organized layout. The design uses custom styling, CSS animations, and a consistent theme to create a professional and visually appealing personal brand.',
-      link: 'https://goricss.ccbp.tech/',
+      link: 'https://portfoliobyme.ccbp.tech/',
       image: 'https://www.hostinger.in/tutorials/wp-content/uploads/sites/2/2023/03/image-49.png'
     }
   ],
@@ -28,14 +28,14 @@ const projects = {
     {
       title: 'Responsive Cake Shop Website',
       description: 'Cake Order Website is a responsive web application developed using HTML, CSS, and JavaScript. It allows users to explore different cake varieties, view details like images and prices, and place orders through an interactive form. JavaScript is used to handle form validation, show dynamic price updates, and enhance user interactions. This project helped me practice DOM manipulation and create a smooth, real-world user experience using front-end technologies.',
-      link: 'https://htmlcssjscode.ccbp.tech/',
+      link: 'https://cakeshopdesign.ccbp.tech/',
       image: 'https://colorlib.com/wp-content/uploads/sites/2/cakes-colorlib-template.jpg'
     },
   
     {
       title: 'TO-DO LIst App',
       description: 'The To-Do List App is a basic yet functional task management tool built using HTML, CSS, and JavaScript. It allows users to add, delete, and mark tasks as completed. The layout is clean and responsive, offering a smooth user experience on both desktop and mobile devices. JavaScript is used to handle task interactions dynamically without page reloads. This project helped me understand DOM manipulation, event handling, and local storage for saving tasks even after refreshing the page.',
-      link: 'https://todosmotivation.ccbp.tech/',
+      link: 'https://todolistbyme.ccbp.tech/',
       image: 'https://i.pinimg.com/originals/8e/f1/31/8ef1310037ddb9099d1b5a1c8eb4710d.png'
     }
   ],
@@ -62,10 +62,10 @@ const projects = {
   
     },
     {
-      title: 'A Heart Disease Predictor',
-      description: 'The Heart Disease Predictor is a machine learning project that helps determine the likelihood of a person having heart disease based on medical inputs such as age, blood pressure, cholesterol level, and more. Built using Python and popular libraries like Pandas, Scikit-learn, and Matplotlib, this project uses a classification model to make predictions. The goal is to assist in early detection and encourage timely medical consultation. The model was trained on real healthcare data and achieves reliable accuracy in identifying potential heart disease risks.',
-      link: 'https://github.com/Fairoz-source/Heart-Disease-Predictor',
-      image: 'https://pulse-cardiology.com/wp-content/uploads/2020/07/Heart-disease-issues.jpg'
+      title: 'IPL Probability Predictor',
+      description: 'This is a machine learning-based application that predicts the winning probability of IPL teams during live matches. The model is trained on historical IPL data using algorithms like Logistic Regression and Random Forest. Users can input match details (e.g., runs, overs, wickets, target) through a Streamlit interface to get real-time predictions. This project showcases the use of AI in sports analytics for improving fan engagement and match insights.',
+      link: 'https://github.com/Lavanya071/tutorial.git',
+      image: 'https://upload.wikimedia.org/wikipedia/en/8/84/Indian_Premier_League_Official_Logo.svg'
       
     }
   ],
